@@ -1,0 +1,68 @@
+LPA - Lógica de programação e Algoritmos|
+========================================|
+
+Revisar algoritmos de compactação.
+
+1 avaliação -> Fluxograma e portugues estruturado
+2 avaliação -> Java
+
+- Introdução a informática
+	Ciência que estuda o tratamento automático e racional da informação.
+	
+	Entrada ---> Processamento ---> Saída |
+	______________________________________
+	
+	Entrada: Pega dados e insere no computador.
+	Processamento: Realização de operações sobre estes dados (Oprações lógicas e aritméticas)
+	Saída: Exibir os dados já processados na tela (Gráficos, textos, )
+	
+- Esquema básico de hardware
+
+	Unidade de entrada -> Dispositivos que permitem inserção de dados na memória principal do computador.
+	Unidade central -> Comanda tudo no computador, pega as instruçÕes, intrepretar e sinalizar para as outras unidades o que precisam fazer.
+	Unidade de saída -> Ajudam a retirar dados do computador (Monitor, Caixa de som, impressora etc).
+	
+	Unidadel lógico-aritméticas -> Realiza operações aritméticas (ex. comparar ou somar números)
+	Memória principal: Armazena os dados de maneira rápida e volátil, guardando tudo que é necessário para o funcionamento do computador.
+	Memória auxiliar -> Dispotivos que permitem exibir os dados permanentemente. São lentos porque o acesso é muito mais lento do que o acesso à memória principal
+	
+	
+	Obs: Todo programa vai ser executado na memória principal.
+	
+	Dados de entrada ficam no Buffer de entrada.
+		
+	Tudo passa pela unidade de controle.
+	
+	Linguagem Astrubal (Desenvolvida por um professor da UCSAL para fins didáticos)
+	
+- Programa
+	Sequência de comandos que serão executados na ordem em que se encontram pela máquina. Um programa deve ser expresso numa linguagem de programação.
+	
+	Linguagem de programação - Nível
+		O computador só entende presença e ausência de sinal elétrico.
+		
+		Baixo nível (Máquina)
+		Alto nível (Homem)
+		
+		Número binário é dividir um número qualquer por 2 até o quociente 0, e escrever seus restos de trás pra frente.
+		
+		Tudo em computador é representado por binários, seja números, texto, imagens (algoritmos de compactação), vídeos, áudio etc.
+		
+		(8 bits = 1 byte) 0 1000001
+		
+		A = 65 = 0 1000001
+		
+		
+		* Linguagem de montagem foi a primeira tentativa de elevar o nível da linguagem. Substituiu 0 e 1 por palavra mnemônicas, é considerada uma linguagem de
+			baixo nível, muito associada ao hardware, o que dificulta o reuso e a atividade do programador.
+		
+		* Linguagem de alto nível são mais próximas da linguagem humana. O grande problema de usar nossa linguagem natural é a AMBIGUIDADE (varia por tom, altura
+			gestos, comportamento etc), então a linguagem de alto nível segue padões únicos de sintaxe. Facilitam a leitura, permitem desenvolvimento e uso de
+			bibliotecas, permitem que os programas sejam executados em máquinas diferentes, desde que exista um programa compilador ou tradutor para cada uma delas.
+			
+		Tradução e compilação
+		
+			* Tradução: O programa tradutor pega linha por linha, traduz e entrega pra máquina. Se executar o programa 50 vezes, ele vai ser traduzido 50 vezes.
+				Normalmente mais lentos.
+			* Compilação: Vai pegar o mesmo programa que você escreveu e vai gerar um novo arquivo em 0 e 1, e isso é feito apenas 1 vez.
+				Normalmente mais rápido.
