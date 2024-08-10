@@ -1,0 +1,60 @@
+LPA - Lógica de programação e algoritmo|
+=======================================|
+
+Algoritmo
+
+Sequência de passos que quando executados sob as mesmas circunstâncias produzem um mesmo resultado.
+	Exemplo: Receita de bolo -> Ingredientes estragados não entregam o mesmo resultado (Circunstancias diferentes).
+	
+	Todo programa é um algoritmo, mas nem todo algoritmo é um programa.
+	
+	Construindo um algoritmo:
+		-> Dividir um problema em problemas menores.
+		-> Algotimo de espremer laranja
+			- Providencias os obejtos necessários
+				1. Pegar espremedo
+				2. Pegar uma faca
+				3. Pegar um copo
+				4. Pegar uma laranja
+				5. Cortar a laranja
+			- Espremer as laranjas
+				6. Cortar a laranja ao meio
+				7. Espremer cada metade
+				8. Verificar se o recipiente não está cheio, voltar ao passo 4
+				
+		A atividade de melhorar um algoritmo chama-se "Refinamentos sucessivos". Refatoração é uma atividade de refinamento.
+	
+	Usar fluxograma é bom para evitar ambiguidade. Veremos na próxima aula.
+	
+=======================================================================================================================================================================================================
+
+Exercícios
+		
+Trocar lâmpada
+
+1. Pegar uma escada para alcançar a lâmpada.
+2. Posicionar a escada.
+3. Desligar o disjuntor.
+4. Pegar uma lâmpada nova.
+5. Subir na escada.
+6. Retirar a lâmpada queimada.
+7. Colocar a lâmpada nova.
+8. Descer da escada
+9. Testar a lâmpada, se não estiver funcionando, voltar ao passo 4.
+10. Guardar a escada.
+
+
+Máquina de refri
+
+1. INJETA
+2. PASSA
+3. PASSA
+4. TAMPA
+
+5. PASSA
+6. INJETA
+7. PASSA
+8. TAMPA
+9. PASSA
+10. PASSA
+11. TAMPA
